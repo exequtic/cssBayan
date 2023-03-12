@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3em;
+    gap: 1em;
 }
 
 .text {
@@ -102,11 +102,11 @@ input:checked + label .text {
 
 @media all and (max-width: 820px) {
     .text {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 }
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 420px) {
 
     .header {
         font-size: 0.7em;
@@ -114,5 +114,10 @@ input:checked + label .text {
 
     .text {
         font-size: 1em;
+    }
+    
+    .icon {
+        border-bottom: 0.1em solid #d79921;
+        border-left: 0.1em solid #d79921;
     }
 }
