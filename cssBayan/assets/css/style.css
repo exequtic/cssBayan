@@ -4,6 +4,10 @@
     box-sizing: inherit;
 }
 
+body {
+    overflow: scroll;
+}
+
 .header {
     text-align: center;
 }
