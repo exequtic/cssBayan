@@ -71,6 +71,12 @@ input:checked + label .text {
     color: #fbf1c7;
 }
 
+.item:active .image,
+.item:active .text,
+.item:active .icon {
+    filter: brightness(1.3);
+    transition: 0s;
+}
 
 @media (hover:hover) {
 
