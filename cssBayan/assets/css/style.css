@@ -1,9 +1,3 @@
-*,
-::before,
-::after {
-    box-sizing: inherit;
-}
-
 body {
     color: #a89984;
     background-color: #1d2021;
@@ -82,6 +76,10 @@ input:checked + label .text {
 
     .container:hover .icon {
         opacity: 1;
+    }
+
+    .container:hover .text {
+        color: #fbf1c7;
     }
 
     .item:hover .icon {
